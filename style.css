@@ -1,0 +1,109 @@
+body{
+    background-color: #333;
+}
+
+.box>div{
+    width: 15px;
+    height: 35px;
+    background-color: #1B5E20;
+    border: 3px solid #33691E;
+}
+.box>div{
+    transition: ease-in;
+}
+.box>div:nth-child(1), .box>div:nth-child(7){
+    animation: anim-1 20s infinite;
+}
+.box>div:nth-child(2), .box>div:nth-child(6){
+    animation: anim-2 20s infinite;
+}
+.box>div:nth-child(3), .box>div:nth-child(5){
+    animation: anim-3 20s infinite;
+}
+.box>div:nth-child(2){
+    transform: translateY(-41px) translateX(18px);
+    animation-delay: 0.5s;
+}
+.box>div:nth-child(3){
+    transform: translateY(-82px) translateX(36px);
+    animation-delay: 1s;
+}
+.box>div:nth-child(4){
+    transform: translateY(-123px) translateX(54px);
+    animation: anim-4 20s infinite;
+    animation-delay: 1.5s;
+}
+.box>div:nth-child(5){
+    transform: translateY(-164px) translateX(72px);
+    animation-delay: 2s;
+}
+.box>div:nth-child(6){
+    transform: translateY(-205px) translateX(90px);
+    animation-delay: 2.5s;
+}
+.box>div:nth-child(7){
+    transform: translateY(-246px) translateX(108px);
+    animation-delay: 3s;
+}
+@keyframes anim-1{
+    0%{background-color: #1B5E20;}
+    6.25%{background-color: #A5D6A7;}
+    12.5%{background-color: #1B5E20;}
+    27.5%{background-color: #1B5E20;}
+    33.75%{background-color: #A5D6A7;}
+    40%{background-color: #1B5E20;}
+    55%{background-color: #1B5E20;}
+    61.25%{background-color: #A5D6A7;}
+    67.5%{background-color: #1B5E20;}
+    82.5%{background-color: #1B5E20;}
+    88.75%{background-color: #A5D6A7;}
+    95%{background-color: #1B5E20;}
+    100%{background-color: #1B5E20;}
+}
+@keyframes anim-2{
+    0%{background-color: #1B5E20;}
+    6.25%{background-color: #66BB6A;}
+    12.5%{background-color: #1B5E20;}
+    27.5%{background-color: #1B5E20;}
+    33.75%{background-color: #66BB6A;}
+    40%{background-color: #1B5E20;}
+    55%{background-color: #1B5E20;}
+    61.25%{background-color: #66BB6A;}
+    67.5%{background-color: #1B5E20;}
+    82.5%{background-color: #1B5E20;}
+    88.75%{background-color: #66BB6A;}
+    95%{background-color: #1B5E20;}
+    100%{background-color: #1B5E20;}
+}
+@keyframes anim-3{
+    0%{background-color: #1B5E20;}
+    6.25%{background-color: #43A047;}
+    12.5%{background-color: #1B5E20;}
+    27.5%{background-color: #1B5E20;}
+    33.75%{background-color: #43A047;}
+    40%{background-color: #1B5E20;}
+    55%{background-color: #1B5E20;}
+    61.25%{background-color: #43A047;}
+    67.5%{background-color: #1B5E20;}
+    82.5%{background-color: #1B5E20;}
+    88.75%{background-color: #43A047;}
+    95%{background-color: #1B5E20;}
+    100%{background-color: #1B5E20;}
+}
+@keyframes anim-4{
+    0%{background-color: #1B5E20;}
+    6.25%{background-color: #2E7D32;}
+    12.5%{background-color: #1B5E20;}
+    27.5%{background-color: #1B5E20;}
+    33.75%{background-color: #2E7D32;}
+    40%{background-color: #1B5E20;}
+    55%{background-color: #1B5E20;}
+    61.25%{background-color: #2E7D32;}
+    67.5%{background-color: #1B5E20;}
+    82.5%{background-color: #1B5E20;}
+    88.75%{background-color: #2E7D32;}
+    95%{background-color: #1B5E20;}
+    100%{background-color: #1B5E20;}
+}
+
+
